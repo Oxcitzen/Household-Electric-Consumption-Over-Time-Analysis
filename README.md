@@ -33,23 +33,23 @@ Active and Reactive power:
 
 - Similar observation in global reactive power 
 
-![](graphs/Screenshot 2023-07-21 at 3.13.05 PM.png)
+![](graphs/Screenshot%202023-07-21%20at%203.13.05%20PM.png)
 
 Voltage: 
 
-![](graphs/Screenshot 2023-07-21 at 3.20.08 PM.png)
+![](graphs/Screenshot%202023-07-21%20at%203.20.08%20PM.png)
 
 - Voltage is staying relatively constant, this can also be another important factor in determining patterns when we get to the model. 
 
 Global intensity: 
 
-![](graphs/Screenshot 2023-07-21 at 3.24.26 PM.png)
+![](graphs/Screenshot%202023-07-21%20at%203.24.26%20PM.png)
 
 - There seems to be a pattern of peaks going on, further analysis will be required. 
 
 Submetering: 
 
-![](graphs/Screenshot 2023-07-21 at 3.26.08 PM.png)
+![](graphs/Screenshot%202023-07-21%20at%203.26.08%20PM.png)
 
 - Sub meter three has the highest amount of energy usage.  
     - This makes sense as electric water heater and air conditioning are more likely to use more energy than kitchen appliances and washing appliances. 
