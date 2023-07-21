@@ -23,4 +23,7 @@ Data description:
 
 Data is measured in Paris, France in the date range December 2006 to November of 2010. 
 
+# Initial analysis: 
+
+![](graphs/Screenshot%202023-07-20%20at%207.44.46%20PM.png)
 
