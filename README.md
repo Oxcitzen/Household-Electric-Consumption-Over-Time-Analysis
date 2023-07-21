@@ -25,5 +25,32 @@ Data is measured in Paris, France in the date range December 2006 to November of
 
 # Initial analysis: 
 
+Active and Reactive power: 
+
 ![](graphs/Screenshot%202023-07-20%20at%207.44.46%20PM.png)
 
+- Weekly energy patterns and daily energy patterns are very similar in shape
+
+- Similar observation in global reactive power 
+
+![](graphs/Screenshot 2023-07-21 at 3.13.05 PM.png)
+
+Voltage: 
+
+![](graphs/Screenshot 2023-07-21 at 3.20.08 PM.png)
+
+- Voltage is staying relatively constant, this can also be another important factor in determining patterns when we get to the model. 
+
+Global intensity: 
+
+![](graphs/Screenshot 2023-07-21 at 3.24.26 PM.png)
+
+- There seems to be a pattern of peaks going on, further analysis will be required. 
+
+Submetering: 
+
+![](graphs/Screenshot 2023-07-21 at 3.26.08 PM.png)
+
+- Sub meter three has the highest amount of energy usage.  
+    - This makes sense as electric water heater and air conditioning are more likely to use more energy than kitchen appliances and washing appliances. 
+- Sub meter three also seems to have some kind of patter in its peaks.
