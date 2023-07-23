@@ -6,7 +6,7 @@ This project dives into the study of global energy patterns and uses LSTM's in o
 
 The source for the data can be found here: http://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
-Data description: 
+# Data description: 
 
 - date: Date in format dd/mm/yyyy
 - time: time in format hh:mm:ss
@@ -54,3 +54,47 @@ Submetering:
 - Sub meter three has the highest amount of energy usage.  
     - This makes sense as electric water heater and air conditioning are more likely to use more energy than kitchen appliances and washing appliances. 
 - Sub meter three also seems to have some kind of patter in its peaks.
+
+Seasonal patterns: 
+
+- Months between 3 and 5 are considered Spring
+- Months between 6 and 9 are considered Summer
+- Months between 9 and 11 are considered Fall 
+- Other = winter 
+
+![](graphs/Screenshot%202023-07-22%20at%209.41.54%20PM.png)
+
+- Highest average power consumption comes in the winter
+
+![](graphs/Screenshot%202023-07-22%20at%209.43.59%20PM.png)
+
+- Highest average reactive comes in the summer
+
+![](graphs/Screenshot%202023-07-22%20at%209.45.14%20PM.png)
+
+- highest all around meter per season is submeter 3 
+- all meetrs peak in the winter, and have the lowest usage in the summer
+
+- Overall it seems that winter is the highest active power time 
+- Summer has the lowest active power and lowest metered power so it makes sense that it would have the highst amount of reactive power
+
+Daily trends: 
+
+![](graphs/Screenshot%202023-07-22%20at%209.48.03%20PM.png)
+
+# Autocorrelation 
+
+![](graphs/Screenshot%202023-07-22%20at%209.48.50%20PM.png)
+
+- An autocorrelation score of 0.96 indicates that the current values of the time series are highly correlated with their past values. The time series tends to show a strong and persistent pattern that repeats over time.
+
+# Cross correlation 
+
+![](graphs/Screenshot%202023-07-22%20at%209.49.41%20PM.png)
+
+- Global intensity is highly correlated with Global active power
+
+- Heat map has the same result 
+
+![](graphs/Screenshot%202023-07-22%20at%209.50.26%20PM.png)
+
